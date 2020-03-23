@@ -58,7 +58,7 @@
 			</tr>
 			<tr>
 				<td>卖家昵称：</td>
-				<td>乐爱购商铺 <span class="confirmPayOrderDetailWangWangGif"></span></td>
+				<td>来购商铺 <span class="confirmPayOrderDetailWangWangGif"></span></td>
 			</tr>
 			<tr>
 				<td>收货信息： </td>
