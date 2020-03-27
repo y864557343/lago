@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lago" />
+        <module name="laigou" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="lago" target="1.8" />
+      <module name="laigou" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

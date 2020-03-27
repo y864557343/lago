@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8" isELIgnored="false"%>
-	
+
 <div class="reviewDiv">
 	<div class="reviewProductInfoDiv">
 		<div class="reviewProductInfoImg"><img width="400px" height="400px" src="img/productSingle/${p.firstProductImage.id}.jpg"></div>
@@ -22,12 +22,12 @@
 					<td><span class="reviewProductInfoTableSellNumber">${p.saleCount}</span> 件</td>
 				</tr>
 			</table>
-			
+
 			<div class="reviewProductInfoRightBelowDiv">
 				<span class="reviewProductInfoRightBelowImg"><img1 src="img/site/reviewLight.png"></span>
 				<span class="reviewProductInfoRightBelowText" >现在查看的是 您所购买商品的信息
 于<fmt:formatDate value="${o.createDate}" pattern="yyyy年MM月dd"/>下单购买了此商品 </span>
-			
+
 			</div>
 		</div>
 		<div style="clear:both"></div>
@@ -42,8 +42,8 @@
 			<div class="reviewStasticsRightEmpty"></div>
 			<div class="reviewStasticsFoot"></div>
 		</div>
-	</div>		
-	
+	</div>
+
 	<c:if test="${param.showonly==true}">
 	<div class="reviewDivlistReviews">
 		<c:forEach items="${reviews}" var="r">
@@ -55,7 +55,7 @@
 		</c:forEach>
 	</div>
 	</c:if>
-	
+
 	<c:if test="${param.showonly!=true}">
 		<div class="makeReviewDiv">
 		<form method="post" action="foredoreview">
@@ -72,6 +72,6 @@
 				<button type="submit">提交评价</button>
 			</div>
 		</form>
-		</div>	
+		</div>
 	</c:if>
 </div>

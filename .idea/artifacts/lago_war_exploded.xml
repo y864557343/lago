@@ -4,7 +4,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="lago" />
+          <element id="module-output" name="laigou" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: junit:junit:4.12" />
@@ -40,7 +40,7 @@
           <element id="library" level="project" name="Maven: org.mybatis.generator:mybatis-generator-core:1.3.5" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="lago/web/Web" />
+      <element id="javaee-facet-resources" facet="laigou/web/Web" />
     </root>
   </artifact>
 </component>
